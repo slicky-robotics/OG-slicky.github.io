@@ -24,6 +24,32 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+
+        <!-- Styling for links -->
+        <style>
+            #titleDiv {
+                padding-top: 20px;
+                padding-bottom: 3px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .titles {
+                color: #1bc4c5; 
+                text-align: center;
+                background-color: transparent; 
+            }
+            .titles:visited {
+              color: #515769;
+              background-color: transparent;
+              text-decoration: none;
+            }
+
+            .titles:hover {
+              color: red;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+        </style>
     </head>
     <!-- END HEAD -->
 
@@ -96,11 +122,15 @@
                         <div class="text-right sm-text-left">
                             <h2 class="margin-b-0">About Me</h2>
                             <p>Intro</p>
+                            <img src="./img/profile.jpg" alt="Profile Picture" width="300" height="400" border="0" style="border-radius: 10px 10px 10px 10px;
+                                -moz-border-radius: 10px 10px 10px 10px;
+                                -webkit-border-radius: 10px 10px 10px 10px;
+                                border: 7px outset #000000;">
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
                         <div class="margin-b-60">
-                            <p> Hi! My name is Justin Chen and I'm currently a Computer Science student at the University of California, Berkeley. I'm also intending to major in Business Administration or Data Science, I'm not too sure yet. This website is intended to be an outlet for me to showcase some of my projects and the things that I have learned thus far. In any case, feel free to explore my page! </p>
+                            <p> Hi! My name is Justin Chen and I'm currently a Computer Science student at the University of California, Berkeley. I'm also intending to major in Business Administration, Data Science, or Statistics, I'm not too sure yet. This website is intended to be an outlet for me to showcase some of my projects and the things that I have learned thus far. In any case, feel free to explore my page! </p>
                     </div>
                 </div>
                 <!--// end row -->
@@ -118,23 +148,39 @@
                             <h2 class="margin-b-0">Projects</h2>
                             <p>Feel free to check them out!</p>
 
-
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
                         <div class="margin-b-60">
+                            <div id="titleDiv">
+                                <a class="titles" href="https://github.com/JustinTChen/Rogue-Like-Game">Rogue-Like Game (Java)</a>
+                            </div>
                         	<div id="container">
-                             <a href="https://github.com/JustinTChen/Rogue-Like-Game">
-                             <img src="./img/game.png" alt="See Project!" width="560" height="315" border="0">
-                              </div>
+                             <img src="./img/game.png" alt="See Project!" width="560" height="315" border="0" style="border-radius: 10px 10px 10px 10px;
+                                -moz-border-radius: 10px 10px 10px 10px;
+                                -webkit-border-radius: 10px 10px 10px 10px;
+                                border: 7px outset #000000;">
+                            </div>
+
+                            <div id="titleDiv">
+                                <a class="titles" href="https://github.com/JustinTChen/SmartPrice">SmartPrice</a>
+                            </div>
                             <div id="container">
-                              <a href="https://github.com/JustinTChen/SmartPrice">
-                              <img src="./img/SmartPrice.png" alt="See Project!" width="560" height="315" border="0">
-                              </div>
+                              <img src="./img/SmartPrice.png" alt="See Project!" width="560" height="315" border="0", style="border-radius: 10px 10px 10px 10px;
+                                -moz-border-radius: 10px 10px 10px 10px;
+                                -webkit-border-radius: 10px 10px 10px 10px;
+                                border: 7px outset #000000;">
+                            </div>
+
+                            <div id="titleDiv">
+                                <a class="titles" href="https://github.com/JustinTChen/HamSpam-Email-Classifier">Ham/Spam Email Classifier</a>
+                            </div>
                             <div id="container">
-                                <a href="https://github.com/JustinTChen/HamSpam-Email-Classifier">
-                                <img src="./img/HamSpam.png" alt="See Project!" width="560" height="315" border="0">
-                              </div>
+                                <img src="./img/HamSpam.png" alt="See Project!" width="560" height="315" border="0", style="border-radius: 10px 10px 10px 10px;
+                                -moz-border-radius: 10px 10px 10px 10px;
+                                -webkit-border-radius: 10px 10px 10px 10px;
+                                border: 7px outset #000000;">
+                            </div>
                     </div>
                 </div>
                 <!--// end row -->
